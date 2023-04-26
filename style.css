@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  label {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  input[type="number"], input[type="text"] {
+    width: 200px;
+    margin: 5px;
+  }
+  
+  button {
+    margin: 10px auto;
+    display: block;
+  }
+  
+  #result {
+    margin-top: 10px;
+  }
+  

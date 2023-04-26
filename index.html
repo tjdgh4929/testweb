@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>부가세 계산기</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>부가세 계산기</h1>
+    <label for="price">상품 가격:</label>
+    <input type="text" id="price" name="price" onkeyup="formatPrice()">
+    <br>
+    <label for="taxRate">부가세율:</label>
+    <input type="number" id="taxRate" name="taxRate" value="10">
+    <br>
+    <button onclick="calculate()">계산하기</button>
+    <br>
+    <label for="result">부가세 포함 가격:</label>
+    <input type="text" id="result" name="result" readonly>
+    <script src="javascript.js"></script>
+  </body>
+</html>
+
+
